@@ -2,7 +2,7 @@
 /* CSS Document */
 #wrapper	{
 	width: 1440px;
-	height: 900px;
+	height: 1000px;
 	background-color: #F6F3D1;
 	margin-top: 0px;
 }
@@ -81,6 +81,9 @@ a:hover {
 }
 /*CONTENIDO*/
 form {
+	position: absolute;
+	left: 400px;
+	top: 20px;
 	width: 450px;
 	margin: auto;
 	background-color:#801815;
@@ -117,10 +120,11 @@ textarea {
 	color: #801815;
 }
 #texto{
+	position: absolute;
 	width: 260px;
 	text-align: justify;
-	margin-left: 130px;
-	margin-top: -270px;
+	margin-left: 90px;
+	margin-top: 260px;
 	font-size: 20px;
 	font-family: "Bodoni Bk BT", "Calibri Light";
 }
